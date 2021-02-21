@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Rich text editor - MOJ Design System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--[if lte IE 8]><link href="/public/stylesheets/code-ie8.css" rel="stylesheet"><![endif]-->
+  <!--[if gt IE 8]><!--><link href="/public/stylesheets/code.css" rel="stylesheet"><!--<![endif]-->
+
+  <!--[if lt IE 9]>
+    <script src="/public/javascripts/vendor/html5shiv.min.js"></script>
+  <![endif]-->
+  
+</head>
+<body>
+  <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+  
+  <div class="app-example-page">
+    
+  
+
+<div class="govuk-form-group">
+  <label class="govuk-label govuk-!-font-weight-bold" for="body">
+    Message
+  </label>
+
+
+  <textarea class="govuk-textarea" id="body" name="body" rows="5" data-module="moj-rich-text-editor" data-moj-rich-text-editor-toolbar="bold,italic,underline,bullets,numbers"></textarea>
+</div>
+
+
+
+  </div>
+
+  <script src="/public/javascripts/vendor/jquery.min.js"></script>
+  <script src="/public/javascripts/all.js"></script>
+  <script src="/node_modules/moj-frontend/moj/all.js"></script>
+  <script src="/node_modules/govuk-frontend/govuk/all.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll();
+    window.MOJFrontend.initAll();
+  </script>
+  
+</body>
+</html>
+
