@@ -19,6 +19,14 @@ Example usage:
 
 module.exports = {
 
+
+   /*task list tags */
+   "main-status": "Newly assigned",
+
+"overview-status": "Not started",
+"general-info-status" : "Not started"
+
+
   /* overview */
   "opening-date": "Tuesday 21 March 2021",
   "aorequired": "Yes",
