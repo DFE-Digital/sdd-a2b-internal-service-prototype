@@ -90,15 +90,15 @@ Diocesan MAT
 
          <ul class="app-primary-navigation__list">
             <li class="app-primary-navigation__item">
-              <a class="app-primary-navigation__link" aria-current="index" href="/index">Academy conversions (4)</a>
+              <a class="app-primary-navigation__link" aria-current="index" href="/">Academy conversions (4)</a>
             </li>
           
             <li class="app-primary-navigation__item">
-              <a class="app-primary-navigation__link"  href="#">Academy transfers (2)</a>
+              <a class="app-primary-navigation__link"  href="/management">Academy transfers (2)</a>
             </li>
           
             <li class="app-primary-navigation__item"> 
-              <a class="app-primary-navigation__link"  href="#">Significant change (1)</a>
+              <a class="app-primary-navigation__link"  href="/concerns">Significant change (1)</a>
             </li> 
   
           </ul>
@@ -121,7 +121,13 @@ Diocesan MAT
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
         <form action="/general-info/summary1" method="post">
-  <h1 class="govuk-heading-l">Is this a diocesan multi-academy trust (MAT)?</h1>
+
+          <fieldset class="govuk-fieldset">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+            <h1 class="govuk-fieldset__heading">Is this a diocesan multi-academy trust (MAT)?</h1>
+            </legend>
+          
+
 
 
 
@@ -149,6 +155,7 @@ Diocesan MAT
             text: "Continue"
           }) }}
           {% endblock %}
+          </fieldset>
         </form>
         <p><a href="summary1">Cancel</a></p>
       </div><div class="govuk-grid-column-one-third">

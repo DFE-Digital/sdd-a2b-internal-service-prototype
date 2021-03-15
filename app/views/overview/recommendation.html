@@ -121,7 +121,11 @@ Academy order required
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
         <form action="/overview/summary1" method="post">
-  <h1 class="govuk-heading-l">What is your recommendation for this project?</h1>
+          <fieldset class="govuk-fieldset">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+            <h1 class="govuk-fieldset__heading">What is your recommendation for this project?</h1>
+            </legend>
+
 
 
           {{ govukRadios({
@@ -150,6 +154,7 @@ Academy order required
             text: "Continue"
           }) }}
           {% endblock %}
+       </fieldset>
         </form>
         <p><a href="summary1">Cancel</a></p>
 </div>
