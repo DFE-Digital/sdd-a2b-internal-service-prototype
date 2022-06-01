@@ -43,8 +43,10 @@ router.post('/conditions-answer', function (req, res) {
     // Send user to next page
     res.redirect('full_nonmvp/status/approved/conditions_yes')
 
-  } else if (projectConditions == "No"){
+ //} else if (projectConditions == "No"){
+   } else {
   res.redirect('full_nonmvp/status/approved/dates')
+  
   }
   
 })
